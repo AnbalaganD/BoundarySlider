@@ -14,12 +14,13 @@ Pod::Spec.new do |s|
   This slider has a lot of cool features like boundary indicator support, buffer indicator, and much more. This will help you quickly add a more customizable slider view, like those on major OTT platforms, without worrying too much about implementation details and allowing you to focus on business logic.
                        DESC
 
-  s.homepage         = 'https://github.com/AnbalaganD/BoundarySlider'
-  s.screenshots     = 'https://github.com/AnbalaganD/BoundarySlider/blob/main/Screenshot/slider.gif'
+  s.homepage         = 'https://github.com/AnbalaganD/BoundarySlider.git'
+  s.screenshot       = 'https://github.com/AnbalaganD/BoundarySlider/blob/main/Screenshot/boundarySlider.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Anbalagan D' => 'anbu94p@gmail.com' }
   s.source           = { :git => 'https://github.com/AnbalaganD/BoundarySlider.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.linkedin.com/in/anbalagan-d-659b08a8/'
+  s.swift_version    = '5.9'
 
   s.ios.deployment_target = '15.0'
 
