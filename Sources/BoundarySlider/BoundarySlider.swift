@@ -173,14 +173,3 @@ public final class BoundarySlider: UIControl {
         return expandedBounds.contains(point) ? self : nil
     }
 }
-
-/*
- ***** Feature ******
- 1. Multiple boundary
- 2. Buffer view like youtube video buffer
- 3. Seek support
- 4. Customizable thumb image (Not yet)
- 5. Haptic support if reach boundary (Not yet)
- 6. Min, Max value label (Not yet)
- 7. Min, Max value label position like top, middle, bottom (Not yet)
- */
