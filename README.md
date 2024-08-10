@@ -1,6 +1,6 @@
 # BoundarySlider
 
-[![CI Status](https://img.shields.io/travis/Anbalagan D/BoundarySlider.svg?style=flat)](https://travis-ci.org/Anbalagan D/BoundarySlider)
+[![CI Status](https://img.shields.io/travis/AnbalaganD/BoundarySlider.svg?style=flat)](https://travis-ci.org/AnbalaganD/BoundarySlider)
 [![Version](https://img.shields.io/cocoapods/v/BoundarySlider.svg?style=flat)](https://cocoapods.org/pods/BoundarySlider)
 [![License](https://img.shields.io/cocoapods/l/BoundarySlider.svg?style=flat)](https://cocoapods.org/pods/BoundarySlider)
 [![Platform](https://img.shields.io/cocoapods/p/BoundarySlider.svg?style=flat)](https://cocoapods.org/pods/BoundarySlider)
