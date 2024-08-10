@@ -1,0 +1,16 @@
+PODS:
+  - BoundarySlider (0.1.0)
+
+DEPENDENCIES:
+  - BoundarySlider (from `../`)
+
+EXTERNAL SOURCES:
+  BoundarySlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BoundarySlider: 3c88446b21444d9f3672a2733814916ea1560749
+
+PODFILE CHECKSUM: 315f6d4ce637afe6a4fe704b3f0a341ec564aa86
+
+COCOAPODS: 1.15.2

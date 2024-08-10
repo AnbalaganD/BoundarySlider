@@ -1,0 +1,6 @@
+framework module BoundarySlider {
+  umbrella header "BoundarySlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

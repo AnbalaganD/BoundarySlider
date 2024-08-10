@@ -1,0 +1,22 @@
+{
+  "name": "BoundarySlider",
+  "version": "0.1.0",
+  "summary": "A short description of BoundarySlider.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AnbalaganD/BoundarySlider",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Anbalagan D": "anbu94p@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AnbalaganD/BoundarySlider.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "BoundarySlider/Classes/**/*"
+}

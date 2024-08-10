@@ -1,0 +1,7 @@
+use_frameworks!
+
+platform :ios, '15.0'
+
+target 'BoundarySlider_Example' do
+  pod 'BoundarySlider', :path => '../'
+end
