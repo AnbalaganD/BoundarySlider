@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BoundarySlider'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'We can add boundary indicators to this slider, like ads, similar to those found in video sliders on many OTT platforms.'
   s.description      = <<-DESC
   This slider has a lot of cool features like boundary indicator support, buffer indicator, and much more. This will help you quickly add a more customizable slider view, like those on major OTT platforms, without worrying too much about implementation details and allowing you to focus on business logic.
