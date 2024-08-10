@@ -31,7 +31,7 @@ pod 'BoundarySlider'
 
 ## Author
 
-Anbalagan D, anbu94p@gmail.com
+[Anbalagan D](mailto:anbu94p@gmail.com)
 
 ## License
 
