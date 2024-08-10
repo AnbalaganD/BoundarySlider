@@ -1,7 +1,6 @@
 # BoundarySlider
 
 [![Version](https://img.shields.io/cocoapods/v/BoundarySlider.svg?style=flat)](https://cocoapods.org/pods/BoundarySlider)
-[![License](https://img.shields.io/cocoapods/l/BoundarySlider.svg?style=flat)](https://cocoapods.org/pods/BoundarySlider)
 [![Platform](https://img.shields.io/cocoapods/p/BoundarySlider.svg?style=flat)](https://cocoapods.org/pods/BoundarySlider)
 
 ![Slider](Screenshot/slider.gif)
