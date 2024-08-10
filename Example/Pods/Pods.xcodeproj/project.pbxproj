@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2AA3F32E5A2AD4B9D845E838ED0CD209 /* Pods-BoundarySlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 622D2E83E39057F83E59C90C4D91D442 /* Pods-BoundarySlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A98632D55D0520F7442D4D4D290200A /* BoundarySlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC7B9124A7C4ABDBD0B439AB2BB5249 /* BoundarySlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A98632D55D0520F7442D4D4D290200A /* BoundarySlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8E76FC2EE822ECAEB0E529E5C40926 /* BoundarySlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC7EE16A6262D95C3C4066D38D922FD /* BoundarySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A74C98024AC4EBA550DD0F9C13D054F /* BoundarySlider.swift */; };
 		5EE655072FA842A08DF6F53603E9F9FF /* Pods-BoundarySlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EBF25EBF0D1175ABE2AFFC1AA0734F /* Pods-BoundarySlider_Example-dummy.m */; };
-		713F0E556A7144F6B7A037251EBFE5AB /* BoundarySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D7C5E8EC403257DBA8B5A28B708AC /* BoundarySlider.swift */; };
-		BF8E440B59BF250B13D42C8E9C320DB3 /* BoundarySlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BBB77E5135DD03D0CFF44F26EE6428 /* BoundarySlider-dummy.m */; };
+		BF8E440B59BF250B13D42C8E9C320DB3 /* BoundarySlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31150208F97C3A5820CCA18622EB87C3 /* BoundarySlider-dummy.m */; };
 		C77FB1D69A399CD9E7FE188D00BB24A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D05C386C764A8FBCF16785ABE28D3925 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -27,30 +27,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		092817A724D90B2E65E786FA2ABB8D68 /* BoundarySlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoundarySlider-prefix.pch"; sourceTree = "<group>"; };
+		00A7450A15053BCED224B9D6C1278515 /* BoundarySlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoundarySlider.debug.xcconfig; sourceTree = "<group>"; };
+		072BCEE6A6CAF7A9508ED65C472448F4 /* BoundarySlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BoundarySlider-Info.plist"; sourceTree = "<group>"; };
 		0B29A0F529BFC4C938179BFE883A6989 /* Pods_BoundarySlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoundarySlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		124D22CBCFA36FAA93BD6144DFB80CBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		1F02C1B1EB5C4E20C1E9FA8022F05E37 /* BoundarySlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BoundarySlider-Info.plist"; sourceTree = "<group>"; };
+		0E4AEF4A43BFD3C0484F9D3DDD54C56D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		277F9537BC14A0B01591791369D6E441 /* Pods-BoundarySlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoundarySlider_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2AD2AAADB4E184DF70D59B03FD434E78 /* BoundarySlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoundarySlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FC7B9124A7C4ABDBD0B439AB2BB5249 /* BoundarySlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoundarySlider-umbrella.h"; sourceTree = "<group>"; };
+		31150208F97C3A5820CCA18622EB87C3 /* BoundarySlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BoundarySlider-dummy.m"; sourceTree = "<group>"; };
+		4A74C98024AC4EBA550DD0F9C13D054F /* BoundarySlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoundarySlider.swift; path = Sources/BoundarySlider/BoundarySlider.swift; sourceTree = "<group>"; };
+		5199F9840FCC44655BAF587C1D4AA579 /* BoundarySlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoundarySlider.release.xcconfig; sourceTree = "<group>"; };
 		622D2E83E39057F83E59C90C4D91D442 /* Pods-BoundarySlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoundarySlider_Example-umbrella.h"; sourceTree = "<group>"; };
-		6FB6E9993C0696A0B2B0951C2ACC3C24 /* BoundarySlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoundarySlider.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73C248576B1B2C76E54FD569E86FA836 /* Pods-BoundarySlider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoundarySlider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		751D7C5E8EC403257DBA8B5A28B708AC /* BoundarySlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoundarySlider.swift; path = BoundarySlider/Classes/BoundarySlider.swift; sourceTree = "<group>"; };
 		77EBF25EBF0D1175ABE2AFFC1AA0734F /* Pods-BoundarySlider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoundarySlider_Example-dummy.m"; sourceTree = "<group>"; };
 		7DE93437F5D8275B37C211F931D3816A /* Pods-BoundarySlider_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoundarySlider_Example-Info.plist"; sourceTree = "<group>"; };
+		8A8E76FC2EE822ECAEB0E529E5C40926 /* BoundarySlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoundarySlider-umbrella.h"; sourceTree = "<group>"; };
 		97D28AAC8C7ED867066E4BC9475937FB /* Pods-BoundarySlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoundarySlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A61A8C96C6E4ADF356CE82E6A820DB5F /* BoundarySlider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BoundarySlider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7E4324629D747A8C92684632A3F5107 /* Pods-BoundarySlider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BoundarySlider_Example.modulemap"; sourceTree = "<group>"; };
-		B26643B9B687B34E8E726E2CA2E8161D /* BoundarySlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BoundarySlider.modulemap; sourceTree = "<group>"; };
-		B7BBB77E5135DD03D0CFF44F26EE6428 /* BoundarySlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BoundarySlider-dummy.m"; sourceTree = "<group>"; };
+		AA2F5ECF34920660DB2CF3BC91B63EDC /* BoundarySlider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BoundarySlider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B81A848064B6FADF0E68E6A642256439 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D10EF1EAC8124CCC4A2AC5C3B8728E52 /* Pods-BoundarySlider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoundarySlider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D129848BB0EF6536D8C36B34DDDED56C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D7DE5E978C8E9BC2DBD4BF3548B95842 /* BoundarySlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoundarySlider-prefix.pch"; sourceTree = "<group>"; };
 		D861081D922C966F2222355DE1CCCAC7 /* Pods-BoundarySlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoundarySlider_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DB5B0332E05CBC3F595D651E6EE8DC7B /* BoundarySlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoundarySlider.release.xcconfig; sourceTree = "<group>"; };
+		E35BBF3E3046AA30A82E3CD618F36F1D /* BoundarySlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BoundarySlider.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,21 +82,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0218E0B3DF0B916D64E9FE3D7591D902 /* BoundarySlider */ = {
-			isa = PBXGroup;
-			children = (
-				751D7C5E8EC403257DBA8B5A28B708AC /* BoundarySlider.swift */,
-				A0659C2973843F975BEE5697754FFF97 /* Pod */,
-				53BA92DAB720CF4BDEF3A66C6150FB81 /* Support Files */,
-			);
-			name = BoundarySlider;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		3D49933F768F09D8EC0ACBB4FF84DBB8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0218E0B3DF0B916D64E9FE3D7591D902 /* BoundarySlider */,
+				F6F8C091A68EEB4533C06F5FFA16DE7A /* BoundarySlider */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -109,27 +98,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		53BA92DAB720CF4BDEF3A66C6150FB81 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B26643B9B687B34E8E726E2CA2E8161D /* BoundarySlider.modulemap */,
-				B7BBB77E5135DD03D0CFF44F26EE6428 /* BoundarySlider-dummy.m */,
-				1F02C1B1EB5C4E20C1E9FA8022F05E37 /* BoundarySlider-Info.plist */,
-				092817A724D90B2E65E786FA2ABB8D68 /* BoundarySlider-prefix.pch */,
-				3FC7B9124A7C4ABDBD0B439AB2BB5249 /* BoundarySlider-umbrella.h */,
-				6FB6E9993C0696A0B2B0951C2ACC3C24 /* BoundarySlider.debug.xcconfig */,
-				DB5B0332E05CBC3F595D651E6EE8DC7B /* BoundarySlider.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BoundarySlider";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CB031E099FC6E916E402CD844255F98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E35BBF3E3046AA30A82E3CD618F36F1D /* BoundarySlider.modulemap */,
+				31150208F97C3A5820CCA18622EB87C3 /* BoundarySlider-dummy.m */,
+				072BCEE6A6CAF7A9508ED65C472448F4 /* BoundarySlider-Info.plist */,
+				D7DE5E978C8E9BC2DBD4BF3548B95842 /* BoundarySlider-prefix.pch */,
+				8A8E76FC2EE822ECAEB0E529E5C40926 /* BoundarySlider-umbrella.h */,
+				00A7450A15053BCED224B9D6C1278515 /* BoundarySlider.debug.xcconfig */,
+				5199F9840FCC44655BAF587C1D4AA579 /* BoundarySlider.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BoundarySlider";
 			sourceTree = "<group>";
 		};
 		8FB184B4A9447F7510136CD0F267B0CE /* Pods-BoundarySlider_Example */ = {
@@ -149,16 +138,6 @@
 			path = "Target Support Files/Pods-BoundarySlider_Example";
 			sourceTree = "<group>";
 		};
-		A0659C2973843F975BEE5697754FFF97 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A61A8C96C6E4ADF356CE82E6A820DB5F /* BoundarySlider.podspec */,
-				124D22CBCFA36FAA93BD6144DFB80CBD /* LICENSE */,
-				D129848BB0EF6536D8C36B34DDDED56C /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +155,27 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF69CC2273518053AE202AB6C8219E75 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F5ECF34920660DB2CF3BC91B63EDC /* BoundarySlider.podspec */,
+				B81A848064B6FADF0E68E6A642256439 /* LICENSE */,
+				0E4AEF4A43BFD3C0484F9D3DDD54C56D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F6F8C091A68EEB4533C06F5FFA16DE7A /* BoundarySlider */ = {
+			isa = PBXGroup;
+			children = (
+				4A74C98024AC4EBA550DD0F9C13D054F /* BoundarySlider.swift */,
+				EF69CC2273518053AE202AB6C8219E75 /* Pod */,
+				7CB031E099FC6E916E402CD844255F98 /* Support Files */,
+			);
+			name = BoundarySlider;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				713F0E556A7144F6B7A037251EBFE5AB /* BoundarySlider.swift in Sources */,
+				3FC7EE16A6262D95C3C4066D38D922FD /* BoundarySlider.swift in Sources */,
 				BF8E440B59BF250B13D42C8E9C320DB3 /* BoundarySlider-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,9 +350,9 @@
 			};
 			name = Release;
 		};
-		2858964720C938C9AEBC1C1EE94D92E7 /* Debug */ = {
+		5610F8406A015C8E4438FC951C0B6904 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FB6E9993C0696A0B2B0951C2ACC3C24 /* BoundarySlider.debug.xcconfig */;
+			baseConfigurationReference = 5199F9840FCC44655BAF587C1D4AA579 /* BoundarySlider.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -378,42 +378,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2E2E2B46A233AFA15C33B97099719892 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB5B0332E05CBC3F595D651E6EE8DC7B /* BoundarySlider.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BoundarySlider/BoundarySlider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BoundarySlider/BoundarySlider-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/BoundarySlider/BoundarySlider.modulemap";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
-				PRODUCT_MODULE_NAME = BoundarySlider;
-				PRODUCT_NAME = BoundarySlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -589,6 +554,41 @@
 			};
 			name = Release;
 		};
+		A82ABDC1F3C73C8473C27B2E864BC18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A7450A15053BCED224B9D6C1278515 /* BoundarySlider.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BoundarySlider/BoundarySlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BoundarySlider/BoundarySlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BoundarySlider/BoundarySlider.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = BoundarySlider;
+				PRODUCT_NAME = BoundarySlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -604,8 +604,8 @@
 		7482BC35B8401802BA2636D4A24DB3C1 /* Build configuration list for PBXNativeTarget "BoundarySlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2858964720C938C9AEBC1C1EE94D92E7 /* Debug */,
-				2E2E2B46A233AFA15C33B97099719892 /* Release */,
+				A82ABDC1F3C73C8473C27B2E864BC18A /* Debug */,
+				5610F8406A015C8E4438FC951C0B6904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
