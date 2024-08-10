@@ -20,13 +20,46 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Installation
+### CocoaPods
 
 BoundarySlider is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'BoundarySlider'
+```
+
+### Swift Package manager (SPM)
+
+BoundarySlider is available through [SPM](https://github.com/AnbalaganD/BoundarySlider). Use below URL to add as a dependency
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/AnbalaganD/BoundarySlider", .upToNextMajor(from: "0.1.1"))
+]
+```
+
+## Usage
+```swift
+import BoundarySlider
+
+// Configure
+let boundarySlider = BoundarySlider()
+boundarySlider.minimumValue = 0.0
+boundarySlider.maximumValue = 100.0
+boundarySlider.trackColor = .gray
+boundarySlider.fillTrackColor = .red
+boundarySlider.bufferTrackColor = .init(white: 1.0, alpha: 0.6)
+boundarySlider.boundaryColor = .yellow
+boundarySlider.boundaries = [
+    12, 33, 45, 60, 76, 90, 99
+]
+
+// Change fill tracker value
+boundarySlider.value = 50.0
+
+// Changes Buffer value
+boundarySlider.bufferValue = 60.0
 ```
 
 ## Author
