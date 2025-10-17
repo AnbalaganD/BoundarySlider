@@ -32,7 +32,7 @@ pod 'BoundarySlider'
 
 ### Swift Package manager (SPM)
 
-BoundarySlider is available through [SPM](https://github.com/AnbalaganD/BoundarySlider). Use below URL to add as a dependency
+BoundarySlider is available through [SPM](https://swiftpackageindex.com/AnbalaganD/BoundarySlider). Use below URL to add as a dependency
 
 ```swift
 dependencies: [

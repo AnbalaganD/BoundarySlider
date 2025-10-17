@@ -7,24 +7,49 @@
 
 import UIKit
 
-/// This view will show the boundary with in slide.
-/// If slide reach that boundary will invoke callback to gitve option to execute custom logic
+/// A horizontal slider control that supports buffered progress and visual boundary markers.
+///
+/// `BoundarySlider` renders three tracks:
+/// - a base track (`trackColor`),
+/// - an optional buffer track (`bufferTrackColor`) indicating preloaded progress, and
+/// - a filled track (`fillTrackColor`) representing the current `value`.
+///
+/// You can also provide `boundaries`, which are value positions along the track where
+/// vertical markers are drawn using `boundaryColor`.
+///
+/// Values are expressed in the closed range [`minimumValue`, `maximumValue`]. Updating
+/// `value`, `bufferValue`, or `boundaries` updates the corresponding layers immediately.
 public final class BoundarySlider: UIControl {
     private var trackLayer: CALayer!
     private var fillTrackerLayer: CALayer!
     private var bufferLayer: CALayer!
     private var boundaryLayerDictionary = [Float: CALayer]()
     private var thumbInitialXPosition: Float = 0.0
+    private var _value: Float = 0.0
+    private var _bufferValue: Float = 0.0
 
+    /// The base track color. Defaults to `.gray`.
+    /// Changing this does not retroactively update existing layer colors; set before layout if possible.
     public var trackColor: UIColor = .gray
+
+    /// The filled progress track color. Defaults to `.red`.
     public var fillTrackColor: UIColor = .red
+
+    /// The buffer track color used to indicate preloaded progress. Defaults to a semi-opaque white.
     public var bufferTrackColor: UIColor = .init(white: 1.0, alpha: 0.6)
+
+    /// The color used to draw boundary markers. Defaults to `.systemYellow`.
     public var boundaryColor: UIColor = .systemYellow
 
+    /// The minimum slider value. Defaults to `0.0`.
     public var minimumValue: Float = 0.0
+
+    /// The maximum slider value. Defaults to `1.0`.
     public var maximumValue: Float = 1.0
 
-    private var _value: Float = 0.0
+    /// The current value represented by the filled track.
+    ///
+    /// - Note: Setting this value clamps it to [`minimumValue`, `maximumValue`] and updates the fill layer.
     public var value: Float {
         get { _value }
         set {
@@ -33,7 +58,9 @@ public final class BoundarySlider: UIControl {
         }
     }
 
-    private var _bufferValue: Float = 0.0
+    /// The current buffer value represented by the buffer track.
+    ///
+    /// - Note: Setting this value clamps it to [`minimumValue`, `maximumValue`] and updates the buffer layer.
     public var bufferValue: Float {
         get { _bufferValue }
         set {
@@ -42,6 +69,10 @@ public final class BoundarySlider: UIControl {
         }
     }
 
+    /// Discrete positions along the track at which to draw boundary markers.
+    ///
+    /// Values outside [`minimumValue`, `maximumValue`] are ignored during layout.
+    /// Updating this array recreates boundary layers and refreshes their positions.
     public var boundaries: [Float] = [] {
         didSet {
             addBoundaryLayer()
@@ -55,6 +86,7 @@ public final class BoundarySlider: UIControl {
         addBoundaryLayer()
     }
 
+    /// Creates a slider from an Interface Builder archive or storyboard.
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setupLayer()
