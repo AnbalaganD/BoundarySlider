@@ -1,6 +1,6 @@
 //
 //  BoundarySlider.swift
-//  MusicPlayer
+//  BoundarySlider
 //
 //  Created by Anbalagan on 09/08/24.
 //
