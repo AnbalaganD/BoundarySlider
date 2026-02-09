@@ -29,6 +29,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'BoundarySlider'
 ```
+> **Note:** CocoaPods updates will not be provided for upcoming releases, as CocoaPods is no longer actively supported and has entered maintenance mode.
 
 ### Swift Package manager (SPM)
 
